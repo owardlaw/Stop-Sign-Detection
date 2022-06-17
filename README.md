@@ -8,7 +8,6 @@ Train a new model before using the repo.
 
 ### Requirements
 
-
 VS Build tools 2019
 
 python 3.8 tested and working 
@@ -23,3 +22,7 @@ cd detectron2
 pip install -e .
 
 ```
+
+### Example of detection
+
+![plot](detection.jpg)
