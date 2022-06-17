@@ -1,14 +1,20 @@
-### Dermose canny repo 
+### Traffic Signal Detection
 
-use detectron2 to detection both hair base and follicle. Plot canny as well as orgin, use canny to find width/area of hair. Run locally with jupyterlab or python IDE.
+Using detectron2 to idenfity traffic signals with a semantic segmentation model. 
+
+Current model is trained to identify stop signs but more traffic signs/signals will be added.
+
+Train a new model before using the repo.
 
 ### Requirements
+
 
 VS Build tools 2019
 
 python 3.8 tested and working 
 
 ```console
+pip install opencv-python
 
 git clone https://github.com/facebookresearch/detectron2.git
 
