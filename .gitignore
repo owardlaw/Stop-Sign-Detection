@@ -1,3 +1,2 @@
-# ignore files
-*.pth
-*.0
+# Ignore files
+/output
