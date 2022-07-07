@@ -1,9 +1,7 @@
 ### Traffic Signal Detection
 
 Using detectron2 to idenfity traffic signals with a semantic segmentation model. 
-
 Current model is trained to identify stop signs but more traffic signs/signals will be added.
-
 Train a new model before using the repo.
 
 ### Usage
@@ -13,9 +11,8 @@ First complete installations below, then proceed to comment in the # trainer.tra
 From there run the main.py file and open your local host URL in a browser. From there upload any image of a stop sign you find and see the detection displayed. 
 
 ### Requirements
-
+NVIDIA GPU or set up to train on Google Colab
 VS Build tools 2019
-
 python 3.9 tested and working 
 
 ```console
