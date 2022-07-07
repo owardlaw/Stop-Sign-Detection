@@ -31,4 +31,4 @@ pip install -e .
 
 ### Example of detection
 
-![plot](test_imgs/test1.jpg)
+![plot](test_imgs/detection.jpg)

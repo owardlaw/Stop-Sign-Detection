@@ -5,8 +5,7 @@ from app import app
 import urllib.request
 from flask import Flask, flash, request, redirect, url_for, render_template
 from werkzeug.utils import secure_filename
-from detection import detect_signs, dir_to_img
-from show_img import show
+from detection import detect_signs 
 
 ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'PNG'])
 
@@ -53,8 +52,6 @@ def upload_image():
 
 @app.route('/display/<filename>')
 def display_image(filename):
-
-    #print('display_image filename: ' + filename)
     return redirect(url_for('static', filename='uploads/' + filename), code=301)
 
 if __name__ == "__main__":
