@@ -6,9 +6,9 @@ Train a new model before using the repo.
 
 ### Usage
 
-First complete installations below, then proceed to comment in the # trainer.train() line to train the model. Feel free to change the ‘cfg.SOLVER.MAX_ITER = 1000’ value to whatever you choose. 
+First complete installations below, then proceed to comment in the # trainer.train() line to train the model. Feel free to change the ‘cfg.SOLVER.MAX_ITER = 1000’ <- value to whatever you choose. 
 
-From there run the main.py file and open your local host URL in a browser. From there upload any image of a stop sign you find and see the detection displayed. 
+From there run the main.py file and open your local host URL in a browser. From there upload any image of a stop sign you find and see the detection displayed. Stop signs will be displayed by white pixels covering the stop sign. 
 
 ### Requirements
 NVIDIA GPU or set up to train on Google Colab

@@ -8,8 +8,6 @@ from detectron2 import model_zoo
 from detectron2.engine import DefaultTrainer, DefaultPredictor
 from detectron2.config import get_cfg
 from detectron2.utils.visualizer import ColorMode, Visualizer
-from detectron2.evaluation import COCOEvaluator, inference_on_dataset
-from detectron2.data import build_detection_test_loader
 
 # Reading Json Data
 def get_data_dicts(directory, classes):
@@ -149,7 +147,7 @@ def detect_signs(frame):
 # img = cv2.imread("./test_imgs/"+filename)
 
 # # Run detection 
-# detection = detection(img)
+# detection = detect_signs(img)
 
 # output = detection[0]
 

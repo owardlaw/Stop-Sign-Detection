@@ -2,7 +2,6 @@ import os
 import cv2
 from torch import det
 from app import app
-import urllib.request
 from flask import Flask, flash, request, redirect, url_for, render_template
 from werkzeug.utils import secure_filename
 from detection import detect_signs 
